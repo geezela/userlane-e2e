@@ -1,0 +1,20 @@
+{
+  "name": "userlane-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/mocha": "^8.2.1",
+    "cypress": "^6.6.0",
+    "cypress-file-upload": "^5.0.2",
+    "webpack": "^5.24.3"
+  },
+  "scripts": {
+    "careers:chrome": "cypress run --spec 'tests/careers/*.spec.ts' --config baseUrl=https://www.userlane.com/careers --browser chrome"
+  },
+  "author": "Gizela Rakowska",
+  "license": "ISC"
+}

@@ -1,0 +1,11 @@
+{
+  "integrationFolder": "tests",
+  "testFiles": "**/*.spec.ts",
+  "supportFile": false,
+  "fixturesFolder": "fixtures",
+  "screenshotsFolder": "reports/screenshots",
+  "videosFolder": "reports/videos",
+  "viewportHeight": 720,
+  "viewportWidth": 1280,
+  "chromeWebSecurity": false
+}
